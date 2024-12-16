@@ -1,4 +1,4 @@
-# Data-Pipeline-Project-Work
+# Real-Time Weather Data project
 
 Le projet vise à collecter, traiter et analyser des **flux de données météorologiques** en temps réel en utilisant **Apache Kafka** et **Apache Flink**. Il met en place une infrastructure permettant de :
 
