@@ -122,7 +122,8 @@ mvn exec:java -Dexec.mainClass="org.example.FlinkSlidingWindow"
 mvn exec:java -Dexec.mainClass="org.example.FlinkSlidingWindow"
 ```
 
----
+------
+
 ## **Exemple de Résultat**
 
 Après traitement des flux de données avec une fenêtre glissante dans Apache Flink, voici un exemple de sortie agrégée des températures moyennes par ville :
