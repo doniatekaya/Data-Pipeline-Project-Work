@@ -49,5 +49,22 @@ Le projet vise à collecter, traiter et analyser des **flux de données météor
    - Ouvrez le fichier `pom.xml` généré automatiquement.
   
 ---
+# **Lancer Kafka**
+
+# 1. Démarrer Zookeeper
+```
+C:\kafka> .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+```
+
+# 2. Démarrer le serveur Kafka
+```
+C:\kafka> .\bin\windows\kafka-server-start.bat .\config\server.properties
+```
+
+# 3. Créer le topic Kafka
+```
+kafka-topics --create --topic weather_data --bootstrap-server localhost:9092
+```
+---
 
 
