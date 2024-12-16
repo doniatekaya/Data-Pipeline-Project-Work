@@ -112,7 +112,12 @@ mvn exec:java -"Dexec.mainClass=org.example.WeatherDataConsumer"
 
 
 
-### 5.xécutez le Job Flink : la classe FlinkSlidingWindow qui consomme les données Kafka, applique une fenêtre glissante, et calcule une transformation
+### 5. Exécutez le Job Flink  
+Lancez la classe `FlinkSlidingWindow` pour consommer les données Kafka, appliquer une fenêtre glissante, et calculer une transformation.
+
+```bash
+mvn exec:java -Dexec.mainClass="org.example.FlinkSlidingWindow"
+
 ```
 mvn exec:java -Dexec.mainClass="org.example.FlinkSlidingWindow"
 ```
