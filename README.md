@@ -148,7 +148,7 @@ Cette figure montre l'évolution de l'humidité (%) pour cinq villes différente
 
 Deuxième Figure (4 sous-graphes) :
 
-![output](https://github.com/user-attachments/assets/58e2fd2e-5d82-4e6d-92b9-57ede0643e4e)
+![output](https://github.com/user-attachments/assets/a0c8332f-68a6-4bc0-a983-a3c0b0d83af8)
 
 
 es graphiques montrent les principales variations climatiques à Rome sur une année. La température présente des variations saisonnières avec des pics en été et des creux en hiver. L’humidité reflète les fluctuations annuelles, mettant en évidence les périodes sèches et humides. La vitesse du vent permet d’observer les périodes venteuses et plus calmes. Enfin, la pression atmosphérique met en évidence les phases de haute et basse pression.
