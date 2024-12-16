@@ -66,5 +66,72 @@ C:\kafka> .\bin\windows\kafka-server-start.bat .\config\server.properties
 kafka-topics --create --topic weather_data --bootstrap-server localhost:9092
 ```
 ---
+### **Lancer flink**
+```
+./bin/stop-cluster.sh  
+./bin/start-cluster.sh
+```
+
+### 2.Accédez al'interface 
+```
+http://localhost:8081
+```
+---
+
+### **Exécution du Projet**
+
+### 1.compilez le projet :
+```
+mvn clean install
+
+```
+
+### 2.Observez les logs pour lire les messages publiés dans `weather_data` :
+```
+kafka-console-consumer --bootstrap-server localhost:9092 --topic weather_data --from-beginning
+```
+<img width="799" alt="kafka topic consumer" src="https://github.com/user-attachments/assets/c9fbdb22-64f0-424a-a95c-144124cb459c" />
+
+
+### 3.Exécutez le Producteur class :
+
+```
+mvn exec:java -"Dexec.mainClass=org.example.WeatherDataProducer"
+```
+
+<img width="767" alt="sent data " src="https://github.com/user-attachments/assets/00fa17c9-d8b5-4a42-8afc-a71722365d53" />
+
+
+### 4.Exécutez le Consommateur class :
+
+```
+mvn exec:java -"Dexec.mainClass=org.example.WeatherDataConsumer"
+
+```
+<img width="786" alt="consumed data " src="https://github.com/user-attachments/assets/988b1fbd-5787-4039-ab98-333e6cdd9096" />
+
+
+
+### 5.xécutez le Job Flink : la classe FlinkSlidingWindow qui consomme les données Kafka, applique une fenêtre glissante, et calcule une transformation
+```
+mvn exec:java -Dexec.mainClass="org.example.FlinkSlidingWindow"
+```
+
+---
+## **Exemple de Résultat**
+
+Après traitement des flux de données avec une fenêtre glissante dans Apache Flink, voici un exemple de sortie agrégée des températures moyennes par ville :
+
+- **City: Paris**  
+  Avg Temperature: 12.34°C
+
+- **City: Tokyo**  
+  Avg Temperature: 15.67°C
+
+- **City: Rome**  
+  Avg Temperature: 9.12°C
+
+
+
 
 
