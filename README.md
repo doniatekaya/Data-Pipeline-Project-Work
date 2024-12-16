@@ -134,6 +134,27 @@ Après traitement des flux de données avec une fenêtre glissante dans Apache F
 
 - **City: Rome**  
   Avg Temperature: 9.12°C
+----
+## **Visualization
+
+première Figure :
+
+Variation de l'Humidité pour Différentes Villes :
+Cette figure montre l'évolution de l'humidité (%) pour cinq villes différentes (Rome, Madrid, Paris, Istanbul, Tokyo) 
+
+![output (1)](https://github.com/user-attachments/assets/6f66dd52-55d7-454f-addd-bb3850bbe47d)
+
+
+
+Deuxième Figure (4 sous-graphes) :
+
+![output](https://github.com/user-attachments/assets/58e2fd2e-5d82-4e6d-92b9-57ede0643e4e)
+
+
+es graphiques montrent les principales variations climatiques à Rome sur une année. La température présente des variations saisonnières avec des pics en été et des creux en hiver. L’humidité reflète les fluctuations annuelles, mettant en évidence les périodes sèches et humides. La vitesse du vent permet d’observer les périodes venteuses et plus calmes. Enfin, la pression atmosphérique met en évidence les phases de haute et basse pression.
+
+
+  
 
 
 
