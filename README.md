@@ -150,7 +150,7 @@ première Figure :
 Variation de l'Humidité pour Différentes Villes :
 Cette figure montre l'évolution de l'humidité (%) pour cinq villes différentes (Rome, Madrid, Paris, Istanbul, Tokyo) 
 
-![output (1)](https://github.com/user-attachments/assets/6f66dd52-55d7-454f-addd-bb3850bbe47d)
+![outputttttt](https://github.com/user-attachments/assets/ef9c07fd-be4c-45d6-8792-07f0a43cd03f)
 
 
 
