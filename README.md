@@ -119,8 +119,6 @@ Lancez la classe `FlinkSlidingWindow` pour consommer les données Kafka, appliqu
 mvn exec:java -Dexec.mainClass="org.example.FlinkSlidingWindow"
 
 ```
-mvn exec:java -Dexec.mainClass="org.example.FlinkSlidingWindow"
-```
 
 ------
 
