@@ -111,6 +111,14 @@ mvn exec:java -"Dexec.mainClass=org.example.WeatherDataConsumer"
 <img width="786" alt="consumed data " src="https://github.com/user-attachments/assets/988b1fbd-5787-4039-ab98-333e6cdd9096" />
 
 
+##### weather_dataa.csv :
+
+
+<img width="612" alt="cssv" src="https://github.com/user-attachments/assets/f86afd6b-130b-4f46-b517-fbe4ac966371" />
+
+
+
+
 
 ### 5. Exécutez le Job Flink  
 Lancez la classe `FlinkSlidingWindow` pour consommer les données Kafka, appliquer une fenêtre glissante, et calculer une transformation.
